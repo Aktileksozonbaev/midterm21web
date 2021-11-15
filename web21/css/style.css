@@ -1,0 +1,135 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.nav-link_color{
+	color: black !important;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.nav-link_color__border_rose::first-letter {
+	
+	border-bottom: 1px solid red;
+}
+
+.main__container {
+	margin: 0 5%;
+}
+
+.main__title {
+	font-size: 50px;
+}
+
+.services__title , .team__title , .questions__title {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.main__title_2 , .main__title_3 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.services__row__item p {
+	margin-top: auto;
+padding-top: 10px;
+font-weight: bold;
+}
+
+.services_icon {
+	width: 56px;
+	height: 50px;
+}
+
+
+.team__img img {
+	border-radius: 50%;
+}
+
+.team__name {
+	font-size: 24px;
+}
+
+.questions-block {
+	background: url(/img/footer-bg.png) no-repeat center;
+	background-size: cover;
+}
+
+.questions__items{
+	padding-top: 7%; 
+}
+
+
+.form-group  input{
+	background: transparent;
+	outline: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin-bottom: 30px;
+}
+
+.form-group:nth-child(2) {
+	padding-bottom: 5%;
+}
+
+.form-control {
+border-radius: none;
+}
+
+.check {
+	padding-top: 10%;
+}
+
+.textarea-quest {
+	margin-top: 2%;
+	padding-bottom: 11%;
+}
+
+.btn-form {
+	margin-top: 15%;
+}
+
+.label-check {
+	color: white;
+	padding-left: 10px;
+}
+
+
+.form-group  textarea{
+	background: transparent;
+	
+	outline: none;
+}
+
+
+input[type="checkbox"] {
+	background: #272B2E;
+} 
+
+
+
+.footer {
+	background: #272B2E;
+}
+
+.footer__title {
+	font-style: 20px;
+	font-weight: bold;
+}
+
+.footer__item a , .footer__item p{
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.footer__items{
+	padding-top: 6%;
+}
